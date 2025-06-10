@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Treat these files as text and normalize line endings
+*.txt text
+*.js text
+*.ts text
+*.md text
+*.json text
+*.yml text
+*.yaml text
+
+# Binary files that should not be modified
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
